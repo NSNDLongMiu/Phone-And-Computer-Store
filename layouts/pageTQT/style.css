@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    min-height: 900px ;
+    /* background-color: gray; */
+}
+/* start-header */
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    color: black;
+    background-color: gray;
+}
+#header .top-header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    align-items: center;   
+}
+#header .top-header .cskh{
+    margin-left: 10%;
+}
+#header a{
+    color: black;
+}
+#header .top-header .cskh span{
+    margin-left: 20px;
+}
+#header .top-header .cskh a:hover{
+    color: blue;
+}
+#header .top-header .login{
+    margin-right: 10%;
+}
+#header .top-header .login a{
+    margin-left: 10px;
+}
+#header .top-header .login a:hover{
+    color: blue;
+}
+
+#header .bot-header{
+    position: relative;
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    color: black;
+}
+#header .bot-header .logo-search-cart{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+#header .bot-header .logo-search-cart .logo{
+    margin-left: 10%;
+}
+#header .bot-header .logo-search-cart .logo a:hover{
+    color: blue;
+} 
+#header .bot-header .logo-search-cart .cart{
+    margin-right: 10%;
+}
+#header .bot-header .logo-search-cart .cart img{
+    width: 70px;
+    height: 70px;
+}
+#header .bot-header .logo-search-cart .cart .tooltip{
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: solid 1px #e3e3e3;
+    border-radius: 20px;
+    padding: 10px;  
+    
+    
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    right: 160px;
+}
+#header .bot-header .logo-search-cart .cart:hover .tooltip{
+    visibility: visible;  
+    transition: 1s; 
+}
+
+#header .bot-header .logo-search-cart .cart .tooltip .btn{
+    border: solid 1px #e3e3e3 ;
+    border-radius: 20px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#header .bot-header .logo-search-cart .cart .tooltip .btn:hover{
+    background-color: #0040FF;
+    color: white;
+}
+#header .bot-header .menu{
+    width: 100%;
+    height: 50px;   
+}
+#header .bot-header .menu ul{
+    position: relative;
+    display: flex;
+    margin-left: 10%;
+}
+#header .bot-header .menu ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 40px;
+    font-weight: bold;
+}
+#header .bot-header .menu ul li a:hover{
+    color: blue;
+}
+/* end-header */
+
+
+/* start-main */
+#main{
+    position: absolute;
+    top: 35%;
+    left:0;
+    width: 100%;
+
+}
+#main form{
+    margin-left: 10%;  
+}
+#main form .nhap{
+    width: 70%;
+    height: 35px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+#main form .btn{
+    border: solid 1px gray;
+    outline: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+}
+#main form .btn:hover{
+    background-color: #0040FF;
+    color: white;
+}
+/* end-main */
+
+
+
+/* start-footer */
+#footer{
+    position: absolute;
+    top: 130%;
+    left: 0;
+    width: 100%;
+    height: 55%;
+    background-color: #212121;
+}
+#footer .top-footer{
+    position: relative;
+    display: flex;
+}
+#footer .top-footer table{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: white;
+}
+#footer .top-footer table, tr, td{
+    padding: 5px;
+}
+#footer .top-footer table .x{
+    font-weight: bold;
+}
+#footer .top-footer table a{
+    color: #727272;
+}
+#footer .top-footer table a:hover{
+    color: black;
+}
+#footer .bot-footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+#footer .bot-footer p{
+    margin-left: 10%;
+    color:#727272;
+}
+#footer .bot-footer .social ul{
+    position: relative;
+    display: flex; 
+}
+#footer .bot-footer .social li{
+    list-style: none;
+    margin-right: -10%;
+}
+#footer .bot-footer .social li a{
+    display: inline-block;
+    margin-right: 30px;
+    transform: scale(0.4);
+}
+#footer .bot-footer .social li a:hover{
+    filter: invert(1);
+}
+/* end-footer */
+
+
+

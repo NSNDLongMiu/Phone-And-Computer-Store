@@ -1,0 +1,62 @@
+#mainCheckout{
+    position: absolute;
+    top: 35%;
+    left:0;
+    width: 100%;
+}
+#mainCheckout .top-checkout{
+    margin-left: 10%;
+    display: flex;
+}
+#mainCheckout .top-checkout .info-checkout p{
+    margin-top: 15px;
+}
+#mainCheckout .top-checkout .info-checkout input{
+    width: 450px;
+    height: 35px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+#mainCheckout .top-checkout .info-add{
+    margin-left: 100px;
+}
+#mainCheckout .top-checkout .info-add p{
+    margin-top: 10px;
+}
+#mainCheckout .top-checkout .info-add textarea{
+    border: solid 1px  gray;
+    border-radius: 20px;
+    margin-top: 5px;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#mainCheckout #order_review{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#mainCheckout #order_review table{
+    border: solid 1px #e3e3e3;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px;
+}
+#mainCheckout #payment{
+    margin-top: 20px;
+}
+#mainCheckout #payment button{
+    border: solid 1px #e3e3e3;
+    outline: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#mainCheckout #payment button:hover{
+    background-color: #0040FF;
+    color: white;
+}

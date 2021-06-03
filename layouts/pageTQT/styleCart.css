@@ -1,0 +1,95 @@
+#mainCart{
+    position: absolute;
+    top: 35%;
+    left:0;
+    width: 100%;
+}
+#mainCart form{
+    margin-left: 10%;  
+}
+#mainCart form table{
+    width: 80%;
+    border: solid 1px #e3e3e3;
+    /* border-collapse: collapse; */
+    border-radius: 20px;
+}
+/* #mainCart form table, th, td{ 
+    padding: 10px;
+}
+th, td {
+    text-align: left;
+} */
+/* #mainCart form table thead{
+    background-color: #3452ff;
+} */
+/* #mainCart form table tbody .cart1{
+   
+} */
+#mainCart form table tbody .quantity{
+   text-align: center;
+   width: 150px;
+   position: relative;
+   top: -10px;
+}
+#mainCart form table tbody .quantity .number .count{
+    outline: none;
+    width: 70px;
+    height: 25px;
+    float: left;
+    border: 1px solid  #e3e3e3;
+    border-radius: 20px;
+    padding-left: 8px;
+}
+#mainCart .bill{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+#mainCart .bill h2{
+    margin-bottom: 10px;
+}
+#mainCart .bill table{
+    border: 1px solid #e3e3e3;
+    width: 30rem;
+    border-radius: 20px;
+    padding: 5px;
+}
+#mainCart .empty{
+    margin-left: 10%;
+}
+.button{
+    float: right;
+    border: solid 1px #e3e3e3;
+    outline: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #0040FF;
+    color: white;
+}
+.btn-checkout{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 700;
+}
+.btn-checkout a{
+    color: black; 
+} 
+.btn-checkout:hover{
+    background-color: #0040FF;
+    color: white;
+}
+.product{
+    color: black;
+    text-align: left;
+    padding-top: 15px;
+}
